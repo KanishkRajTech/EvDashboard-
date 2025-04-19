@@ -16,9 +16,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     { to: "/top-models", icon: <FiHome size={20} />, text: "Top Models" }
   ];
 
-  const settingsItems = [
-    { to: "/settings", icon: <FiSettings size={20} />, text: "Settings" }
-  ];
+  
 
   const isActive = (path) => location.pathname === path;
 
