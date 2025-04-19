@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FiX, FiHome, FiTrendingUp, FiPieChart, FiMap, FiDatabase, FiBarChart2, FiBattery, FiSettings } from 'react-icons/fi';
+import { FiX, FiHome, FiTrendingUp, FiPieChart, FiMap, FiDatabase, FiBarChart2, FiBattery } from 'react-icons/fi';
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const location = useLocation();
