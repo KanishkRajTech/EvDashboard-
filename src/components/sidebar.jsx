@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FiX, FiHome, FiTrendingUp, FiPieChart, FiMap, FiDatabase, FiBarChart2, FiBattery } from 'react-icons/fi';
+import { FiX, FiHome, FiTrendingUp, FiPieChart, FiMap, FiDatabase, FiBarChart2, FiBattery, FiSettings } from 'react-icons/fi';
 
 const Sidebar = ({ isOpen, setIsOpen }) => {
   const location = useLocation();
@@ -16,7 +16,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     { to: "/top-models", icon: <FiHome size={20} />, text: "Top Models" }
   ];
 
-  
+  const settingsItems = [
+    { to: "/settings", icon: <FiSettings size={20} />, text: "Settings" }
+  ];
 
   const isActive = (path) => location.pathname === path;
 
