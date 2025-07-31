@@ -1,10 +1,10 @@
 # 🚗 EV Dashboard – Analytics Assessment  
 **Screening Test – Summer Internship under Dr. Abhijit Chandra**
 
-![EV Dashboard Preview](https://github.com/user-attachments/assets/01ff6e9a-774b-4d13-bdac-6304eb6de34f)
+
 
 ## 🌐 Live Demo  
-🔗 [Visit the Dashboard](https://ev-dashboard-xi.vercel.app/) <!-- Replace with your actual deployment URL -->
+🔗 [Visit the Dashboard](ev-dashboard-woad.vercel.app//) <!-- Replace with your actual deployment URL -->
 
 ---
 
@@ -32,8 +32,8 @@ An interactive **Electric Vehicle (EV) Analytics Dashboard** built with **React*
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ev-dashboard.git
-cd ev-dashboard
+git clone https://github.com/KanishkRajTech/EvDashboard-.git
+cd EvDashboard-
 ```
 ### 2️⃣ Install Dependencies
 ```bash
@@ -43,19 +43,19 @@ npm install
 ```bash
 npm run dev
 ```
-The app will be live at: http://localhost:5173/
+
 ## 📁 Project Structure
 ```bash
 📂 ev-dashboard
 ├── 📁 src
-│   ├── 📁 assets        # Images and static content
-│   ├── 📁 components    # Reusable UI elements
-│   ├── 📁 pages         # Main dashboard pages
-│   ├── 📁 store         # Zustand state management
-│   ├── 📄 App.jsx       # Root component
-│   └── 📄 main.jsx      # Application entry point
-├── 📄 package.json      # Project dependencies and scripts
-├── 📄 README.md         # Documentation
+│   ├── 📁 assets        
+│   ├── 📁 components    
+│   ├── 📁 pages         
+│   ├── 📁 Utils         
+│   ├── 📄 App.jsx       
+│   └── 📄 main.jsx      
+├── 📄 package.json      
+├── 📄 README.md         
 ```
 ## 📊 Key Components
 
