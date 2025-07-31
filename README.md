@@ -57,37 +57,7 @@ npm run dev
 ├── 📄 package.json      
 ├── 📄 README.md         
 ```
-## 📊 Key Components
 
-### 📍 `TrendsPage.jsx`
-- **EV Registration Trends**  
-  Vertical bar chart showing electric vehicle registration trends across the top 10 Indian cities over several years.
-
-- **EV Manufacturer Growth Trends**  
-  Another vertical bar chart that illustrates how production output of top EV manufacturers has evolved over time.
-
----
-
-### 📍 `AnalyticsPage.jsx`
-- **Top 10 Cities with Most EVs**  
-  Displays the cities with the highest EV populations using a bar or pie chart.
-
-- **EV Distribution by Country**  
-  Pie chart showing how EVs are distributed across countries (or regions/states if localized).
-
-- **Top 10 EV Manufacturers by Production**  
-  Bar chart showcasing the manufacturers leading in EV output.
-
-- **Yearly EV Production Area Chart**  
-  Area chart visualizing production growth trends over time, broken down by brand.
-
----
-
-### 🧠 `store/fetchAll.js`
-- Central data-fetching logic using Zustand to:
-  - Make asynchronous API calls
-  - Store and manage global state
-  - Provide data across components without prop drilling
 ## 📬 Contact
 
 If you have any questions, feedback, or wish to discuss this project further, feel free to reach out:
